@@ -8,9 +8,9 @@ int main(){
         }
         char ch='A';
         int breakpoint=(2*i+1)/2;
-        for(char j=1;j<2*i+1 ;j++){
+        for(char j=0;j<2*i+1 ;j++){
             cout<<ch;
-            if(j<=breakpoint)ch++;
+            if(j<breakpoint)ch++;
             else ch--;
         }
         for(int j=0;j<n-i-1;j++){
